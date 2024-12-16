@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa+One:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@600;900&display=swap");
+
+@font-face {
+  font-family: "Movavi Grotesque";
+  src: url("@/assets/fonts/Movavi Grotesque Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SP";
+  src: url("@/assets/fonts/SP.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-movavi-grotesque: "Movavi Grotesque";
+  --font-lato: Lato;
+  --font-changa-one: "Changa One";
+  --font-montserrat: Montserrat;
+  --font-sf-pro-text: "SF Pro Text";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-9xl: 28px;
+  --font-size-base: 16px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --color-moccasin: #ffeeba;
+  --m-white: #fff;
+  --color-gold-100: #ffd144;
+  --color-steelblue: #3579b5;
+  --color-skyblue: rgba(167, 222, 253, 0);
+  --color-darkslateblue: #15376c;
+  --color-lightblue: #bee3ff;
+  --stroke-counter: #000;
+
+  /* Gaps */
+  --gap-2xs: 11px;
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+  --gap-3xs: 10px;
+  --gap-xs: 12px;
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-12xs: 1px;
+  --padding-10xl: 29px;
+  --padding-lgi: 19px;
+  --padding-xl: 20px;
+  --padding-7xs: 6px;
+  --padding-10xs: 3px;
+  --padding-12xl: 31px;
+  --padding-9xs: 4px;
+  --padding-44xl: 63px;
+  --padding-54xl: 73px;
+  --padding-83xl: 102px;
+  --padding-3xs: 10px;
+  --padding-11xs: 2px;
+
+  /* Border radiuses */
+  --br-2xl: 21px;
+  --br-lg: 18px;
+  --br-xs: 12px;
+  --br-9xs: 4px;
+  --br-11xs-2: 1.2px;
+  --br-10xs-3: 2.3px;
+
+  /* Effects */
+  --shadow-counter: 0.5px 0 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000,
+    0 -0.5px 0 #000;
+  --button-shadow: 0.5px 0 0 #1f1f1f, 0 0.5px 0 #1f1f1f, -0.5px 0 0 #1f1f1f,
+    0 -0.5px 0 #1f1f1f;
+}
